@@ -1,12 +1,13 @@
 package com.example.romaniatravelapp;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class City {
+public class City implements Serializable {
     private Integer id;
     private String cityName;
-    private List<String> images;
+    private String images;
     private String url;
     private String attractions;
     private String description;
@@ -14,13 +15,13 @@ public class City {
     public City(){
         this.id=0;
         this.cityName="";
-        this.images=new ArrayList<String>();
+        this.images="";
         this.url="";
         this.attractions="";
         this.description="";
     }
 
-    public City(Integer id, String name, List<String> img,String url, Integer size, String attractions, String descriptions){
+    public City(Integer id, String name, String img,String url, String attractions, String descriptions){
         this.id=id;
         this.cityName=name;
         this.images=img;
@@ -41,11 +42,11 @@ public class City {
         this.cityName = cityName;
     }
 
-    public List<String> getImages() {
+    public String getImage() {
         return images;
     }
 
-    public void setImages(List<String> images) {
+    public void setImages(String images) {
         this.images = images;
     }
 
