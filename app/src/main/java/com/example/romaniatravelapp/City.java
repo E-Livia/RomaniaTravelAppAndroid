@@ -8,7 +8,6 @@ public class City {
     private String cityName;
     private List<String> images;
     private String url;
-    private Integer collectionSize;
     private String attractions;
     private String description;
 
@@ -17,7 +16,6 @@ public class City {
         this.cityName="";
         this.images=new ArrayList<String>();
         this.url="";
-        this.collectionSize=0;
         this.attractions="";
         this.description="";
     }
@@ -27,7 +25,6 @@ public class City {
         this.cityName=name;
         this.images=img;
         this.url=url;
-        this.collectionSize=size;
         this.attractions=attractions;
         this.description=descriptions;
     }
@@ -58,14 +55,6 @@ public class City {
 
     public void setUrl(String url) {
         this.url = url;
-    }
-
-    public Integer getCollectionSize() {
-        return collectionSize;
-    }
-
-    public void setCollectionSize(Integer collectionSize) {
-        this.collectionSize = collectionSize;
     }
 
     public String getAttractions() {
