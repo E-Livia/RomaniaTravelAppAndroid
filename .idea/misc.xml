@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/UNITBV/Anul III/Anul 3, Sem II/PAM'/RomaniaTravelAppAndroid/app/src/main/res/drawable/round_button.xml" value="0.1" />
         <entry key="..\:/UNITBV/Anul III/Anul 3, Sem II/PAM'/RomaniaTravelAppAndroid/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/UNITBV/Anul III/Anul 3, Sem II/PAM'/RomaniaTravelAppAndroid/app/src/main/res/layout/activity_simple_details.xml" value="0.22" />
         <entry key="..\:/UNITBV/Anul III/Anul 3, Sem II/PAM'/RomaniaTravelAppAndroid/app/src/main/res/layout/city_item.xml" value="0.25" />
       </map>
     </option>

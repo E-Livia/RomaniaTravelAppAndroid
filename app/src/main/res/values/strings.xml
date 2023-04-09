@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">RomaniaTravelApp</string>
     <string name="the_most_beautiful_cities_in_romania">The most beautiful cities in Romania</string>
+    <string name="attractions">Attractions:</string>
 </resources>
