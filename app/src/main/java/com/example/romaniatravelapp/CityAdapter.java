@@ -16,6 +16,7 @@ public class CityAdapter extends RecyclerView.Adapter<CityAdapter.ViewHolder>{
     private int rowId;
     private City [] cities;
     private RecyclerViewInterface recyclerViewInterface;
+    private City cities1;
 
     public CityAdapter(Context context, int rowId, City [] cities, RecyclerViewInterface recyclerViewInterface) {
         this.context = context;
