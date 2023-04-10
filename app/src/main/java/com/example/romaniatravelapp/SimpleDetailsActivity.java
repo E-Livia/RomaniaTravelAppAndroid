@@ -54,7 +54,10 @@ public class SimpleDetailsActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SimpleDetailsActivity.this, ComplexDetailsActivity.class);
-                intent.putExtra("description", cityData.getDescriptions());
+                Bundle bundle1=new Bundle();
+
+                bundle1.putSerializable("data",cityData);
+                intent.putExtras(bundle1);
                 startActivity(intent);
             }
         });

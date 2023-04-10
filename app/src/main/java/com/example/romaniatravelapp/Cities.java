@@ -1,7 +1,5 @@
 package com.example.romaniatravelapp;
 
-import android.widget.ImageView;
-
 public class Cities {
     //instead of using an xml file, i choose to store data in a class
     private City[]cities={
@@ -69,9 +67,8 @@ public class Cities {
                     "clujnapoca3.jpg",
                     "https://www.romaniaexperience.com/things-to-see-and-do-in-cluj-napoca/",
                     "Attractions:\nSt Michael's Church,\nArt Museum,\nBotanical Garden",
-                    "A city loaded with history and culture, Suceava was the throne of the Medieval Principality of Moldavia until the 1565. You can step inside the churches where the princes were crowned and see the unconquerable fortress they built to repel the Ottomans.\n" +
-                            "\n" +
-                            "Suceava is also the jumping-off point for trips around the painted monasteries of Bukovina. These are eight UNESCO World Heritage churches with Byzantine architecture and beautiful murals on their outer walls. One is right here in Suceava, while the others will require a drive. But even if you stay put in Suceava there’s lots more to see, like a quaint outdoor village museum opening a window on life in the Bukovina region."),
+                    "Cluj-Napoca is known, in Romania, as the Heart of Transylvania, or the Heart of Ardeal. It is one of the best academic centers in the country, as well as an important business center.\n" +
+                            "Being one of the largest cities in Romania, Cluj Napoca has become one of the most interesting places to visit, with attractions for almost every possible area of interest: culture, art, architecture, religion, study, photography, food, sightseeing and more."),
             new City(7,
                     "Constanta",
                     "constanta.jpg",

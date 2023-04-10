@@ -2,5 +2,6 @@
     <string name="app_name">RomaniaTravelApp</string>
     <string name="the_most_beautiful_cities_in_romania">The most beautiful cities in Romania</string>
     <string name="attractions">Attractions:</string>
+    <string name="about">About</string>
     <string name="more_info">You can find more info on:</string>
 </resources>
